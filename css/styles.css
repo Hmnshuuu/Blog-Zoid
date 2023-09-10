@@ -1,0 +1,141 @@
+body{
+  font-family: "Montserrat";
+
+}
+h1{
+  font-family: 'Lora', serif;
+  font-size: 3.5rem;
+  line-height: 2;
+
+}
+.container-fluid{
+  padding-top:3%;
+  padding-bottom:200px;
+  padding-left:10%;
+  padding-right: 10%;
+}
+  #title{
+    color: #fff;
+  }
+
+
+/* navigation-bar */
+.navbar-brand{
+  font-family: "Lora";
+  font-size: 2.5rem;
+  color: #fff;}
+
+.nav-link{
+  font-weight: 100;
+  font-family: "Lora"
+  size:2rem;
+  color:#fff;
+}
+.navbar{
+  padding-top:0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom:4.5rem;
+}
+.nav-item{
+  padding-left: 18px;
+  padding-right: 18px;
+}
+#Navbar-items{
+padding-left:  700px;
+}
+/* download buttons */
+.download-button{
+  margin: 5% 3% 5% 0%;
+}
+.rotatemobile{
+  width: 60%;
+  transform: rotate(25deg);
+position: absolute;
+right: 30%;
+}
+@media(max-width:1000px)
+{
+  #title{
+    text-align: center;}
+  .rotatemobile{
+      position: static;
+    transform:rotate(0);
+  }
+}
+
+/* feature */
+#features{padding:10% 10%;
+ background-color: #fff;
+   position:relative;
+
+}
+.feature-box{
+    font-family: "Montserrat-bold";
+  color: #8f8f8f
+  margin: 200px 50px 200px 50px;
+  text-align: center;
+}
+h2{
+  font-family: "Montserrat-bold";
+  font-size: 3rem;
+  line-height: 2
+}
+h3{ padding-top: 10px;
+  font-family: "Montserrat-bold";
+  font-size: 2.5rem;
+  color: #000;
+}
+.font-icon{
+  color:#ef8172;
+
+}
+.font-icon:hover{
+  color: #ff4c68;
+}
+/* testimonials */
+#testimonials{
+padding: 5% 7%;
+text-align:center;
+  background-color:#ef8172;
+  color:#fff;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 50%;
+margin: 20px;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.press-logo{
+  width: 15%;
+  margin:20px 20px 20px 15px;
+}
+.carousel-item{
+  padding: 5% 10%;
+}
+/* pricing */
+#pricing{
+  text-align: center;
+  padding: 5%;
+  font-family: "Montserrat-bold";
+}
+.pricing-col{
+  padding: 3% 2%;
+}
+/* footer */
+#cta{ padding: 5%;
+  text-align: center;
+  background-color: #ff4c68;
+  font-family: Montserrat;
+  font-weight:200;
+  color: #fff;
+
+}
+.footer_button{
+  padding:10px;
+
+}
